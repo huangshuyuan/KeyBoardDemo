@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root_view"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/all_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/normal_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="普通键盘"/>
+
+        <EditText
+            android:id="@+id/special_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="特殊键盘1"
+            android:maxLength="17"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/special_ed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="特殊键盘2"
+            android:maxLength="17"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/carEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:hint="输入车牌号"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
