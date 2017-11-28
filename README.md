@@ -13,11 +13,12 @@ example:
 
 Open Android Studio, click "Import Non-Android Studio Project" and select the cloned directory
 
-Build the project.
+### Build the project.
+
 \KeyBoardDemo\carkeyboard\build\outputs\aar\carkeyboard-release.aar
 \KeyBoardDemo\keyboardlibrary\build\outputs\aar\keyboardlibrary-release.aar
 
  carkeyboard-release.aar &  keyboardlibrary-release.aar  
 
-# Using the library in an Android application:
+## 2. Using the library in an Android application:
 Add the carkeyboard-release.aar ,  keyboardlibrary-release.aar as a gradle dependency to the project.
